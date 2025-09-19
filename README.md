@@ -1,5 +1,5 @@
 # Hyper-Modality Enhancement for Multimodal Sentiment Analysis with Missing Modalities
-We propose the HME to address the modality missingness in real-world scenarios.
+We propose the HME to address the modality missingness in real-world scenarios, which is accepted by [NeurIPS 2025](https://neurips.cc/virtual/2025/poster/116212).
 
 
 ### The Framework of HME:
