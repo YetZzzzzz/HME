@@ -36,7 +36,7 @@ Please cite our paper if you find our work useful for your research:
 ```
 @inproceedings{zhuanghyper,
   title={Hyper-Modality Enhancement for Multimodal Sentiment Analysis with Missing Modalities},
-  author={Zhuang, Yan and Minhao, LIU and Bai, Wei and Zhang, Yanru and Li, Wei and Deng, Jiawen and Ren, Fuji},
+  author={Zhuang, Yan and Liu, Minhao and Bai, Wei and Zhang, Yanru and Li, Wei and Deng, Jiawen and Ren, Fuji},
   booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
   year={2025}
 }
