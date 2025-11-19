@@ -26,7 +26,7 @@ The aligned CMU-MOSI and CMU-MOSEI datasets can be downloaded according to [DiCM
 
 
 ### Pretrained model:
-Downlaod the [BERT-base](https://huggingface.co/google-bert/bert-base-uncased/tree/main) , and put into directory ./BERT-EN/.
+Downlaod the [BERT-base](https://huggingface.co/google-bert/bert-base-uncased/tree/main) , and put into directory ./BERT_en/.
 
 ### Citation:
 Please cite our paper if you find our work useful for your research:
