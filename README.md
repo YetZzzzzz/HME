@@ -1,11 +1,22 @@
-# Hyper-Modality Enhancement for Multimodal Sentiment Analysis with Missing Modalities
-We propose the HME to address the modality missingness in real-world scenarios, which is accepted by [NeurIPS 2025](https://neurips.cc/virtual/2025/poster/116212).
-
+# HME: Hyper-Modality Enhancement for Multimodal Sentiment Analysis with Missing Modalities
+We propose the Hyper-Modality Enhancement for Multimodal Sentiment Analysis with Missing Modalities (HME) to address the modality missingness in real-world scenarios, which is accepted by [NeurIPS 2025](https://neurips.cc/virtual/2025/poster/116212).
 
 ### The Framework of HME:
 ![image](https://github.com/YetZzzzzz/HME/blob/main/framework.png)
 Figure 1: Visualization of HME framework. It consists of three modules: Pre-Processing Module, Hyper-Modality Representation Generation Module and Multimodal Hyper-Modality Fusion Module.
 
+### Prerequisites:
+```
+* Python 3.8.10
+* CUDA 11.5
+* pytorch 1.12.1+cu113
+* sentence-transformers 3.1.1
+* transformers 4.30.2
+```
+**Note that the torch version can be changed to your cuda version, but please keep the transformers==4.30.2 as some functions will change in later versions**
+
+### Pretrained model:
+Downlaod the [BERT-base](https://huggingface.co/google-bert/bert-base-uncased/tree/main) , and put into directory ./BERT_en/.
 
 ### Datasets:
 **Please move the following datasets into directory ```./datasets/```**
@@ -20,20 +31,6 @@ python3 HME_main.py --dataset='mosei' --learning_rate=2e-5 --d_l=192 --missing_r
 ```
 Here ```missing_rate``` denotes the MR value.
 
-### Prerequisites:
-```
-* Python 3.8.10
-* CUDA 11.5
-* pytorch 1.12.1+cu113
-* sentence-transformers 3.1.1
-* transformers 4.30.2
-```
-**Note that the torch version can be changed to your cuda version, but please keep the transformers==4.30.2 as some functions will change in later versions**
-
-
-### Pretrained model:
-Downlaod the [BERT-base](https://huggingface.co/google-bert/bert-base-uncased/tree/main) , and put into directory ./BERT_en/.
-
 ### Citation:
 Please cite our paper if you find our work useful for your research:
 ```
@@ -47,5 +44,3 @@ Please cite our paper if you find our work useful for your research:
 
 ### Acknowledgement
 Thanks to [DiCMoR](https://github.com/mdswyz/DiCMoR), [IMDer](https://github.com/mdswyz/IMDer), [GCNet](https://github.com/zeroQiaoba/GCNet), [LNLN](https://github.com/Haoyu-ha/LNLN) and [HKT](https://github.com/matalvepu/HKT) for their great help to our codes and research. 
-
-
