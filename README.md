@@ -9,14 +9,9 @@ Figure 1: Visualization of HME framework. It consists of three modules: Pre-Proc
 
 
 ### Datasets:
-**Please move the following datasets into directory ./datasets/.**
+**Please move the following datasets into directory ./datasets/**
 
-The CMU-MOSI and CMU-MOSEI datasets can be downloaded according to [MIB](https://github.com/TmacMai/Multimodal-Information-Bottleneck) and [MAG](https://github.com/WasifurRahman/BERT_multimodal_transformer) through the following link: 
-```
-pip install gdown
-gdown https://drive.google.com/uc?id=12HbavGOtoVCqicvSYWl3zImli5Jz0Nou
-gdown https://drive.google.com/uc?id=1VJhSc2TGrPU8zJSVTYwn5kfuG47VaNQ3. 
-```
+The aligned CMU-MOSI and CMU-MOSEI datasets can be downloaded according to [DiCMoR](https://github.com/mdswyz/DiCMoR) and [IMDer](https://github.com/mdswyz/IMDer). 
 
 
 ### Prerequisites:
