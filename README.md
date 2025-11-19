@@ -7,12 +7,18 @@ We propose the HME to address the modality missingness in real-world scenarios, 
 Figure 1: Visualization of HME framework. It consists of three modules: Pre-Processing Module, Hyper-Modality Representation Generation Module and Multimodal Hyper-Modality Fusion Module.
 
 
-
 ### Datasets:
-**Please move the following datasets into directory ./datasets/**
+**Please move the following datasets into directory ```./datasets/```**
 
 The aligned CMU-MOSI and CMU-MOSEI datasets can be downloaded according to [DiCMoR](https://github.com/mdswyz/DiCMoR) and [IMDer](https://github.com/mdswyz/IMDer), rename the pkl as ```aligned_{dataset}.pkl```. 
 
+### Run HME
+For MOSI and MOSEI dataset, please run the following code in ```./HME_MSA/``` through:
+```
+python3 HME_main.py --dataset='mosi' --learning_rate=2e-5 --d_l=192 --missing_rate=0.2 --layers=4 --hyper_depth=3 --latent_layers=4 --latent_dim=192 --n_epochs=100
+python3 HME_main.py --dataset='mosei' --learning_rate=2e-5 --d_l=192 --missing_rate=0.1 --layers=2 --hyper_depth=3 --latent_layers=3 --latent_dim=192 --n_epochs=100
+```
+Here ```missing_rate``` denotes the MR value.
 
 ### Prerequisites:
 ```
@@ -39,8 +45,7 @@ Please cite our paper if you find our work useful for your research:
 }
 ```
 
-
 ### Acknowledgement
-Thanks to [DiCMoR](https://github.com/mdswyz/DiCMoR), [IMDer](https://github.com/mdswyz/IMDer), [LNLN](https://github.com/Haoyu-ha/LNLN), [HKT](https://github.com/matalvepu/HKT), [LFMIM](https://github.com/sunjunaimer/LFMIM) for their great help to our codes and research. 
+Thanks to [DiCMoR](https://github.com/mdswyz/DiCMoR), [IMDer](https://github.com/mdswyz/IMDer), [GCNet](https://github.com/zeroQiaoba/GCNet), [LNLN](https://github.com/Haoyu-ha/LNLN) and [HKT](https://github.com/matalvepu/HKT) for their great help to our codes and research. 
 
 
