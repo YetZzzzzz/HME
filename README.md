@@ -11,7 +11,7 @@ Figure 1: Visualization of HME framework. It consists of three modules: Pre-Proc
 ### Datasets:
 **Please move the following datasets into directory ./datasets/**
 
-The aligned CMU-MOSI and CMU-MOSEI datasets can be downloaded according to [DiCMoR](https://github.com/mdswyz/DiCMoR) and [IMDer](https://github.com/mdswyz/IMDer). 
+The aligned CMU-MOSI and CMU-MOSEI datasets can be downloaded according to [DiCMoR](https://github.com/mdswyz/DiCMoR) and [IMDer](https://github.com/mdswyz/IMDer), rename the pkl as `aligned_{dataset}.pkl'. 
 
 
 ### Prerequisites:
