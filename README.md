@@ -27,3 +27,20 @@ The aligned CMU-MOSI and CMU-MOSEI datasets can be downloaded according to [DiCM
 
 ### Pretrained model:
 Downlaod the [BERT-base](https://huggingface.co/google-bert/bert-base-uncased/tree/main) , and put into directory ./BERT-EN/.
+
+### Citation:
+Please cite our paper if you find our work useful for your research:
+```
+@inproceedings{zhuanghyper,
+  title={Hyper-Modality Enhancement for Multimodal Sentiment Analysis with Missing Modalities},
+  author={Zhuang, Yan and Minhao, LIU and Bai, Wei and Zhang, Yanru and Li, Wei and Deng, Jiawen and Ren, Fuji},
+  booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+  year={2025}
+}
+```
+
+
+### Acknowledgement
+Thanks to [DiCMoR](https://github.com/mdswyz/DiCMoR), [IMDer](https://github.com/mdswyz/IMDer), [LNLN](https://github.com/Haoyu-ha/LNLN), [HKT](https://github.com/matalvepu/HKT), [LFMIM](https://github.com/sunjunaimer/LFMIM) for their great help to our codes and research. 
+
+
