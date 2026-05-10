@@ -19,9 +19,10 @@ Figure 1: Visualization of HME framework. It consists of three modules: Pre-Proc
 Downlaod the [BERT-base](https://huggingface.co/google-bert/bert-base-uncased/tree/main) , and put into directory ./BERT_en/.
 
 ### Datasets:
+
 **Please move the following datasets into directory ```./datasets/```**
 
-The aligned CMU-MOSI and CMU-MOSEI datasets can be downloaded according to [DiCMoR](https://github.com/mdswyz/DiCMoR) and [IMDer](https://github.com/mdswyz/IMDer), rename the pkl as ```aligned_{dataset}.pkl```. 
+The aligned CMU-MOSI and CMU-MOSEI datasets can be downloaded from [Baidu Netdisk](https://pan.baidu.com/s/1FW7A-gfbzomKjj_-7ZR8Og?pwd=8xii) with extraction code 8xii, rename the pkl as ```aligned_{dataset}.pkl```. 
 
 ### Run HME
 For MOSI and MOSEI dataset, please run the following code in ```./HME_MSA/``` through:
